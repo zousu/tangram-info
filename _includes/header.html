@@ -1,0 +1,102 @@
+
+    <!--====== OFFCANVAS MENU PART START ======-->
+
+    <div class="off_canvars_overlay">
+                
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="fa fa-times"></i></a>  
+                        </div>
+                        <div class="offcanvas-brand text-center mb-40">
+                            <img src="assets/images/logo.png" alt="">
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="#">Home</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="index-2.html">Home 2</a></li>
+                                        <li><a href="index-3.html">Home 3</a></li>
+                                        <li><a href="index-4.html">Home 4</a></li>
+                                        <li><a href="index-5.html">Home 5</a></li>
+                                        <li><a href="index-6.html">Home 6</a></li>
+                                        <li><a href="index-7.html">Home 7</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="#service">Service</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="#features">Feature</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="#testimonial">Testimonial</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="#">News</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">news page</a></li>
+                                        <li><a href="index-2.html">Single News</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas-social">
+                            <ul class="text-center">
+                                <li><a href="$"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="$"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="$"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="$"><i class="fab fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget-info">
+                            <ul>
+                                <li><a href="#"><i class="fal fa-envelope"></i> support@appie.com</a></li>
+                                <li><a href="#"><i class="fal fa-phone"></i> +(642) 342 762 44</a></li>
+                                <li><a href="#"><i class="fal fa-map-marker-alt"></i> 442 Belle Terre St Floor 7, San Francisco, AV 4206</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== OFFCANVAS MENU PART ENDS ======-->
+
+    
+    <!--====== PART START ======-->
+    
+    <header class="appie-header-area appie-sticky">
+        <div class="container">
+            <div class="header-nav-box header-nav-box-6">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+                        <div class="appie-logo-box">
+                            <a href="#">
+                                <img src="assets/images/logo-8.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
+                        <div class="appie-header-main-menu">
+                            <ul>
+					            {% for i in site.nav | sort %}
+					            <li><a href="{{ i[1] }}">{{ i[0] }}</a></li>
+					            {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
