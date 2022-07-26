@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>未命名</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1.5,3.61492035 L97.878678,99.7526517 L1.5,196.372276 L1.5,3.61492035 Z" id="三角形" stroke="#F8F8F8" stroke-width="3" fill="#EB2746"></path>
+        <path d="M50,151.87132 L96.3786797,198.25 L3.62132034,198.25 L50,151.87132 Z" id="三角形" stroke="#F8F8F8" stroke-width="3" fill="#42A35F"></path>
+        <path d="M100,101.873967 L147.878678,149.872043 L100,197.631323 L52.121322,149.872043 L100,101.873967 Z" id="三角形" stroke="#F8F8F8" stroke-width="3" fill="#EB721F"></path>
+        <path d="M198.5,3.62132034 L198.5,99.3786797 L151.5,146.37868 L151.5,50.6213203 L198.5,3.62132034 Z" id="三角形" stroke="#F8F8F8" stroke-width="3" fill="#D67EDE"></path>
+        <path d="M198.5,103.61492 L198.5,198.496245 L103.618675,198.259042 L198.5,103.61492 Z" id="三角形" stroke="#F8F8F8" stroke-width="3" fill="#4675CC"></path>
+        <path d="M148.5,53.6213203 L148.5,146.37868 L102.12132,100 L148.5,53.6213203 Z" id="三角形" stroke="#F8F8F8" stroke-width="3" fill="#F3BA06"></path>
+        <path d="M196.37868,1.5 L100,97.8786797 L3.62132034,1.5 L196.37868,1.5 Z" id="三角形" stroke="#F8F8F8" stroke-width="3" fill="#57B2FF"></path>
+    </g>
+</svg>
